@@ -22,5 +22,11 @@ namespace ReqFerramentas
             FrmColaboradores frm = new FrmColaboradores(); 
             frm.ShowDialog();
         }
+
+        private void btnFerramentas_Click(object sender, EventArgs e)
+        {
+            frmFerramentas frm = new frmFerramentas();
+            frm.ShowDialog();
+        }
     }
 }
