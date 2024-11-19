@@ -64,6 +64,7 @@
             this.btnRequisicoes.TabIndex = 2;
             this.btnRequisicoes.Text = "Gerir Requisições";
             this.btnRequisicoes.UseVisualStyleBackColor = true;
+            this.btnRequisicoes.Click += new System.EventHandler(this.btnRequisicoes_Click);
             // 
             // btnFerramentas
             // 
